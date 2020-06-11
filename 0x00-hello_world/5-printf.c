@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Print message 
- * 
+ * main - Print message
+ *
  * return: 0
  */
 

@@ -4,7 +4,7 @@
 * rerurn: 0
 */
 int main(void)
-{   
+{
     char sizeChar;
 	int sizeInt;
 	long sizeLong;
