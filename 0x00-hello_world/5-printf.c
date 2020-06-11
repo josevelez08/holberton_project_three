@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Print message
+ * main - print message  code c 
  *
- * return: 0
+ * Return: 0 always runs
  */
 
 int main(void)

@@ -1,11 +1,14 @@
 #include <stdio.h>
+
 /**
-* main - print sereval sizeof for the  types
-* rerurn: 0
-*/
+ * main - print message  code c 
+ *
+ * Return: 0 always runs
+ */
+
 int main(void)
 {
-    char sizeChar;
+	char sizeChar;
 	int sizeInt;
 	long sizeLong;
 	long long sizeLongLong;
