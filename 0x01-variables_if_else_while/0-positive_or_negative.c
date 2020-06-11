@@ -1,5 +1,7 @@
-#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+
 
 /**
  * main - positive and negative
@@ -22,7 +24,8 @@ int main(void)
 		if (n == 0)
 		{
 			printf(" is zero");
-		} else {
+		} else
+		{
 			printf(" is negative");
 		}
 	}
