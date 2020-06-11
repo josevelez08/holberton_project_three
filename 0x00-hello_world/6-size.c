@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print message  code c 
+ * main - print message  code c
  *
  * Return: 0 always runs
  */
