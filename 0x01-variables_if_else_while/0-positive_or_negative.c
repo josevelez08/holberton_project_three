@@ -8,9 +8,10 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
 return (0);
-if (a > 0) { n = is positive; }
-if-else n=0;
+if (a > 0) 
+n = is positive;
+if - else n = 0;
 { n = is zero; }
 else
-{ n = es negative;}
+{ n = es negative ;}
 }
