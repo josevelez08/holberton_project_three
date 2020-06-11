@@ -5,7 +5,7 @@
 */
 int main(void)
 {
-    char sizeChar;
+	char sizeChar;
 	int sizeInt;
 	long sizeLong;
 	long long sizeLongLong;

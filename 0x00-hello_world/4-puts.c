@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main
+ * main - print message Programming is like building a multilingual puzzle
  *
- * return: Print message
+ * Return: 0 always runs
  */
 
 int main(void)
