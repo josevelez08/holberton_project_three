@@ -1,16 +1,33 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
-
-/* Last digit */
-
-/* Return 0 always run*/
+/**
+ * main - last digit
+ *
+ * Return: 0 always runs
+ */
 int main(void)
 {
-	int n;
+		int n;
+		srand(time(0));
+		n = rand() - RAND_MAX / 2;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-	return (0);
+		int mod = n % 10;
+		if (mod > 5)
+		{
+		printf ("Last digit of %i  is %i and is greater than 5\n", n, mod);
+		}
+		else
+		{
+			if (mod == 0)
+			{
+			printf ("Last digit of %i  is %i and is 0\n", n, mod);
+			}
+			else
+			{
+			printf ("Last digit of %i  is %i and is less than 6 and not 0\n", n, mod);
+			}
+		}
+		return (0);
 }
