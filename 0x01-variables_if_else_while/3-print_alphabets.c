@@ -2,7 +2,7 @@
 /**
 	 * main - alfabeto mayusculas y minisculas
 	 *
-	 * Return: 0 
+	 * Return: 0
 	 */
 
 	int main(void)
@@ -17,6 +17,5 @@
 				putchar (i);
 			}
 	 putchar ('\n')
-		
 		return (0);
 	}
