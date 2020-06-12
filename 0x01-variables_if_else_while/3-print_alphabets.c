@@ -4,16 +4,16 @@
 	 *
 	 * Return: 0 always runs
 	 */
-	int main(void)
+	int main()
 	{
-		int i;
-				for (i = 97; i < 123; ++i)
+		int h;
+				for (h = 97; h < 123; ++h)
 			{
-			putchar (i);
+			putchar (h);
 			}
-		for (i = 65; i < 91; ++i)
+		for (h = 65; h < 91; ++h)
 			{
-				putchar (i);
+				putchar (h);
 			}
 	}
 		return (0);
