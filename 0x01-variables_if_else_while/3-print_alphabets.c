@@ -2,19 +2,21 @@
 /**
 	 * main - alfabeto mayusculas y minisculas
 	 *
-	 * Return: 0 always runs
+	 * Return: 0 
 	 */
+
 	int main(void)
 	{
-		int h;
-				for (h = 97; h < 123; h++)
+		int i = 0;
+				for (i = 97; i < 123; i++)
 			{
-			putchar (h);
+			putchar (i);
 			}
-		for (h = 65; h < 91; h++)
+		for (i = 65; i < 91; i++)
 			{
-				putchar (h);
+				putchar (i);
 			}
-	} putchar ('\n')
+	 putchar ('\n')
+		
 		return (0);
-}
+	}
