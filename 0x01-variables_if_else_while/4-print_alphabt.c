@@ -1,17 +1,20 @@
 
 #include <stdio.h>
 /**
- * main - positive and negative
+ * main - alphabet
  *
  * Return: 0 always runs
  */
 int main()
 {
-	int i;
- for  ( i = 97; i < 123; i++)
- {
-	putchar (i);
- }
- putchar(10);
- return 0;
+		int i;
+
+		for ( i = 97; i < 123; i++)
+		{
+			if( i != 101 && i !=113 ){
+				putchar (i);
+			}
+		}
+		putchar(10);
+		return 0;
 }

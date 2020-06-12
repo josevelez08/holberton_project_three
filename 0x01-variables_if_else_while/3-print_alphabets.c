@@ -7,15 +7,17 @@
  */
 int main()
 {
-int i;
-for ( i = 97; i < 123; i++)
-{
-putchar (i);
-}
-int n;
-for ( n = 65; n < 90; n++ )
-{
-putchar (n);
-} 
-return 0;
+		int i;
+
+		for ( i = 97; i < 123; i++)
+		{
+				putchar (i);
+		}
+		int n;
+
+		for ( n = 65; n < 90; n++ )
+		{
+				putchar (n);
+		} 
+		return 0;
 }
