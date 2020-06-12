@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - digits
  *
@@ -7,11 +6,11 @@
  */
 int main(void)
 {
-	int i = 0;
+	int n = 0;
 
-	for (i = 0; i < 10; i++)
+	for (n = 0; n < 10; n++)
 	{
-		printf("%d", i);
+		printf("%d", n);
 	}
 	printf("\n")
 	return (0);
