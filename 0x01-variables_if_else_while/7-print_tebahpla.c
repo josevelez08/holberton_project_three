@@ -4,7 +4,7 @@
  *
  * Return: 0 always runs
  */
-int main()
+int main(void)
 {
 		int i;
 
@@ -13,5 +13,5 @@ int main()
 				putchar (i);
 		}
 		putchar (10);
-		return 0;
+		return (0);
 }

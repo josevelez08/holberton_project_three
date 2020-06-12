@@ -15,7 +15,7 @@ int main(void)
 		}
 		int n;
 
-		for (n = 65;n< 90; n++)
+		for (n = 65; n < 90; ++n)
 		{
 				putchar (n);
 		}
