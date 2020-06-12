@@ -4,14 +4,14 @@
 	 *
 	 * Return: 0 always runs
 	 */
-	int main()
+	int main(void)
 	{
 		int h;
-				for (h = 97; h < 123; ++h)
+				for (h = 97; h < 123; h++)
 			{
 			putchar (h);
 			}
-		for (h = 65; h < 91; ++h)
+		for (h = 65; h < 91; h++)
 			{
 				putchar (h);
 			}
