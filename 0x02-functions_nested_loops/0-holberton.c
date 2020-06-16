@@ -1,13 +1,13 @@
 #include <unistd.h>
 /**
- * main - print message code c
+ * _putchar - writes the character c to stdout
+ *@c the character to print
  *
  * Return: 0 always runs
  */
-
-int main(void)
+/*function declaration */
+int _putchar(void);
 {
-printf("Holberton");
-printf("\n");
+printf("%s\n", "Holberton");
 return (0);
 }
