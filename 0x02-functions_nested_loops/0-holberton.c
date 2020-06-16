@@ -1,9 +1,8 @@
 #include <stdio.h>
- 
- int print(int i);
+int print(int i);
 
- main ()
- {
+main()
+{
 	printf("%s\n", "Holberton");
 	return (0);
-	}
+}
