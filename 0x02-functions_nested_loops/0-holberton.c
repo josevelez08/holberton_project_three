@@ -6,9 +6,9 @@
  * Return: 0 always runs
  */
 int _putchar(void);
+
 {
 printf("Holberton");
 printf("\n");
 return (0);
 }
-
