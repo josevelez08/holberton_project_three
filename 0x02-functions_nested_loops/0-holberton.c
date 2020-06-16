@@ -7,6 +7,7 @@
  */
 /*function declaration */
 int _putchar(void);
+
 {
 printf("%s\n", "Holberton");
 return (0);
