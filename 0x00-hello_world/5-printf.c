@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "holberton.h"
 /**
  * main - print message code c
  *
@@ -8,6 +8,13 @@
 
 int main(void)
 {
-	printf("%s\n", "with proper grammar, but the outcome is a piece of art,");
+	char palabra[9] = "Holberton";
+	int i = 0;
+
+	for (i = 0; i < 9; i++)
+	{
+		 _putchar(palabra[i]);
+	}
+	putchar('\n');
 	return (0);
 }
