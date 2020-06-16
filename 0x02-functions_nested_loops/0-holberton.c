@@ -6,8 +6,10 @@
  */
 
 int main(void)
+
 {
-	char palabra = "Holberton";
-	_putchar("Holberton\n");
+	char palabra [9];
+	palabra = "Holberton";
+	_putchar('\n');
 	return (0);
 }
