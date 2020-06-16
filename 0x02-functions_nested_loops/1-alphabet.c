@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "holberton.h"
 /**
  * main - print message code c
@@ -8,11 +7,11 @@
 
 int main(void)
 {
-	int i;
+	int i = 97;
 
-	for (i = 0; i < 9; i++)
+	for (i = 97; i < 123; i++)
 	{
-		 putchar(i);
+		 _putchar(i);
 	}
 	putchar('\n');
 	return (0);
