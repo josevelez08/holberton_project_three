@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "holberton.h"
 /**
  * main - print message code c
@@ -6,7 +5,7 @@
  * Return: 0 always runs
  */
 
-int main(void)
+int main()
 {
 	char palabra[9] = "Holberton";
 	int i = 0;
