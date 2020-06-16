@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- * main - print message code c
+ * print_alphabet - 
  *
- * Return: 0 always runs
+ * Return: void
  */
 
 void print_alphabet(void)
@@ -14,5 +14,4 @@ void print_alphabet(void)
 		 _putchar(i);
 	}
 	putchar('\n');
-	return (0);
 }
