@@ -1,20 +1,10 @@
 #include <stdio.h>
-#include "holberton.h"
 /**
- * main - print message code c
- *
- * Return: 0 always runs
- */
-
+* main- only print one messaje con prinft
+* return: 0
+*/
 int main(void)
 {
-	char palabra[9] = "Holberton";
-	int i = 0;
-
-	for (i = 0; i < 9; i++)
-	{
-		 _putchar(palabra[i]);
-	}
-	putchar('\n');
+	printf("%s\n", "with proper grammar, but the outcome is a piece of art,");
 	return (0);
 }
