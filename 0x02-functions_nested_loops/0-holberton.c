@@ -1,14 +1,9 @@
-[2;2Rude <unistd.h>
-/**
- * _putchar - writes the character c to stdout
- *@c the character to print
- *
- * Return: 0 always runs
- */
-int _putchar(void);
+#include <stdio.h>
+ 
+ int print(int i);
 
-{
-printf("Holberton");
-printf("\n");
-return (0);
-}
+ main ()
+ {
+	printf("%s\n", "Holberton");
+	return (0);
+	}
