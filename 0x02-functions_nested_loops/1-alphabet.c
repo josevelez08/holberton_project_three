@@ -5,7 +5,7 @@
  * Return: 0 always runs
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	int i = 97;
 
