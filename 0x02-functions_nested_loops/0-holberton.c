@@ -5,15 +5,9 @@
  * Return: 0 always runs
  */
 
-int main()
+int main(void)
 {
-	char palabra[9] = "Holberton";
-	int i = 0;
-
-	for (i = 97; i < 123; i++)
-	{
-		 _putchar(palabra[i]);
-	}
+	char palabra = "Holberton";
 	putchar('\n');
-	return (0);
+	return (palabra);
 }
