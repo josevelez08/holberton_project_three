@@ -1,12 +1,14 @@
 #include "holberton.h"
 #include <stdio.h>
+
 /**
- * print_alphabet - 10 prints the alphabet
+ * print_alphabet_x10 - 10 prints the alphabet
  *
  * Return: Void
  */
 
-void print_alphabet(void)
+
+void print_alphabet_x10(void)
 
 {
 	int i;
