@@ -1,6 +1,7 @@
 #include "holberton.h"
+#include <stdio.h>
 /**
- * print_alphabet - prints the alphabet
+ * print_alphabet - 10 prints the alphabet
  *
  * Return: Void
  */
@@ -13,10 +14,10 @@ void print_alphabet(void)
 
 	for ( j = 1; j <= 10; j++)
 	{
-	for (i = 'a'; i <= 'z'; i++)
-	{
-		_putchar(i);
-	}
+		for (i = 'a'; i <= 'z'; i++)
+		{
+			_putchar(i);
+		}
 	_putchar('\n');
 	}
 }
