@@ -1,6 +1,7 @@
 #include "holberton.h"
 #include <stdio.h>
 #include <ctype.h>
+
 /**
  * _isalpha - check characters
  * @c: character to be checker
@@ -9,7 +10,7 @@
 
 int _isalpha(int c)
 {
-	if ((c <= 'a' && c >= 'z') ||  (c <= 'A' && c >= 'Z'))
+	if ((c >= 'a' && c <= 'z') ||  (c >= 'A' && c <= 'Z'))
 	{
 		return (1);
 	}
