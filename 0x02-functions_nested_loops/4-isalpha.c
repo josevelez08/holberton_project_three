@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * print_alphabet - prints the alphabet
+ * print_alphabet - prints the alphabetx
  *
- * Return: Void
+ * Return: 1 or 0
  */
 
 int _isalpha(int c)
