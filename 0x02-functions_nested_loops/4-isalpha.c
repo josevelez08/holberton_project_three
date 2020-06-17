@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 #include <ctype.h>
 /**
  * print_alphabet - prints the alphabet
