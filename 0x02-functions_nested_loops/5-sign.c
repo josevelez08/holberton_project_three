@@ -4,20 +4,25 @@
 /**
  * print_sign - mayor o menor
  * @n: character to be checker
- * Return: 1 is true or 0 is false
+ * Return: 1 if greather than zero or 0 is false
  */
 
-int print_sign(int n);
+int print_sign(int n)
 
-{
-	
+{	
 	if (n > 0)
-	{
+		{
 		return (1);
-		print_sign (+)
-	}
+		_putchar ("+");
+		}
 	else if (n == 0)
-	{ 
-		return
-	}
+		{ 
+		_putchar (0);
+		return (0);
+		}
+	else if (n < 0)
+		{
+			_putchar ("-");
+			return (-1);
+		}
 }
