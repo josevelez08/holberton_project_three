@@ -4,11 +4,10 @@
 /**
  * main - check the code for Holberton School students.
  *
- * Return: Always 0.
+ * Return: void
  */
 
-void print_alphabet(void)
-
+void print_alphabet_x10(void)
 {
   char i = 0;
   int j = 0;
@@ -19,7 +18,6 @@ void print_alphabet(void)
       {
        _putchar(i);
       }
-   _putchar('\n');
-    return (0);	
+   _putchar('\n');	
 	 }
 }
