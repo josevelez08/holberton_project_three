@@ -23,7 +23,6 @@ void jack_bauer(void)
 			{
 				printf("%d", h);
 			}
-			
 			printf(":");
 
 			if (m < 10)
