@@ -1,8 +1,9 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * main - check the code for Holberton School students.
- *
+ * jack_bauer - hours
+ *@h: hours
+ *@m: minutes
  * Return: Always 0.
  */
 void jack_bauer(void)
