@@ -1,4 +1,6 @@
 #include "holberton.h"
+#include <stdio.h>
+
 /**
   * main - check the code for Holberton School students.
   *
@@ -12,7 +14,7 @@ for (j = 1; j <= 10; j++)
 {
   for (i = 'a'; i <= 'z'; i++)
   {
-    _putchar(i);
+    printf(i);
   }
 _putchar('\n');
 }
