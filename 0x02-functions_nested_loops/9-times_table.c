@@ -30,7 +30,7 @@ void times_table(void)
 				}
 			} else
 			{
-				if ( resultado < 10 )
+				if (resultado < 10)
 				{
 					printf(" %d$\n", resultado);
 				} else
