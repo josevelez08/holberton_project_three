@@ -9,7 +9,7 @@ void print_to_98(int n)
 {
 	while (n != 98)
 	{
-		_putchar("n");
+		print_to_98(n);
 		_putchar(44);
 		_putchar(32);
 	}	
@@ -21,5 +21,5 @@ void print_to_98(int n)
 	{
 		n--;
 	}
-	_putchar(98);
+	print_to_98(98);
 }
