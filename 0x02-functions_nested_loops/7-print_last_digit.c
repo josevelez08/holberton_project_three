@@ -5,15 +5,13 @@
  *
  * Return: Always 0.
  */
- 
 int print_last_digit(int c)
 
 {
 	int i;
 
 	i = c % 10;
-	
-	if ( i < 0)
+	if (i < 0)
 		{
 			i = -i;
 		}
