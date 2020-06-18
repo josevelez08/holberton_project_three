@@ -1,8 +1,8 @@
 #include "holberton.h"
 #include <stdlib.h>
 /**
- * main - check the code for Holberton School students.
- *
+ * _abs - absolute value 
+ * @o: number absolute
  * Return: Always 0.
  */
 
