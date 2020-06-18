@@ -1,6 +1,5 @@
 #include "holberton.h"
 #include <stdio.h>
-
 /**
  * main - check the code for Holberton School students.
  *
@@ -8,17 +7,36 @@
  */
 void jack_bauer(void)
 {
-	int m = 0;
-	int h = 0;
+
+	int h;
+	
+	int m;
 
 	for (h = 0; h <= 24; h++)
 	{
 		for (m = 0; m < 60; m++)
 		{
-			printf("0" "%d"  , h);
-			printf("0" "%d" , m);
-			putchar("\n");
+			if(h < 10)
+			{
+				printf("0%d"  , h);
+			} else
+			{
+				printf("%d"  , h);
+			}
+			
+			printf(":");
+
+			if(m < 10)
+			{
+				printf("0%d" , m);
+			} else
+			{
+				printf("%d" , m);
+			}
+			printf("\n");
 		}
-		 putchar("\n");
 	}
 }
+
+
+
