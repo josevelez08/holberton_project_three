@@ -8,8 +8,11 @@
  * Return: largest number
  */
 
-int largest_number(int a, int b, int c)
+int main(void)
 {
+	int a;
+	int b;
+	int c;
 	int largest;
 
 	a = 972;
