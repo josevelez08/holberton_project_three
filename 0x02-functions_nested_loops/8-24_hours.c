@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 
 /**
  * main - check the code for Holberton School students.
@@ -6,7 +7,6 @@
  * Return: Always 0.
  */
 void jack_bauer(void)
-
 {
 	int m = 0;
 	int h = 0;
@@ -15,11 +15,10 @@ void jack_bauer(void)
 	{
 		for (m = 0; m < 60; m++)
 		{
-			_putchar("0" + h);
-			_putchar("0" + m);
-			_putchar("\n");
+			printf("0" "%d"  , h);
+			printf("0" "%d" , m);
+			putchar("\n");
 		}
-
+		 putchar("\n");
 	}
-
 }
