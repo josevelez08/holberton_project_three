@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
-	* main - check the code for Holberton School students.
-	*
+	* _islower - check if the character is lowercase .
+	*@c character to be checked
 	* Return: Always 0.
 	*/
 
