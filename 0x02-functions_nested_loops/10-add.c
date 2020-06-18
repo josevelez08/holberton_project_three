@@ -4,7 +4,7 @@
 /**
 	* add - sumar
 	*@i: dato 1
-	@a: dato 2
+	*@a dato 2
 	* Return: Always 0.
 	*/
 
