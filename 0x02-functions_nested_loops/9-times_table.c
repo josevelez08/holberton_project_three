@@ -14,43 +14,41 @@ void times_table(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		for (j = 0; j < 10; j++)
-		{
-			int resultado;
+	for (j = 0; j < 10; j++)
+	{
+		int resultado;
 
-			resultado = i * j;
-			if (j != 9)
+		resultado = i * j;
+		if (j != 9)
+		{
+			if (j == 0)
 			{
-				if (j == 0)
-				{
-					_putchar(resultado/10);
-					_putchar(resultado % 10);
-					_putchar("\n");
-				} else if (resultado < 10)
-				{
-					_putchar(resultado/10);
-					_putchar(resultado % 10);
-					_putchar("\n");
-				} else
-				{
-					_putchar(resultado/10);
-					_putchar(resultado % 10);
-					_putchar("\n");
-				}
+				_putchar(resultado);
+				_putchar("\n");
+			} else if (resultado < 10)
+			{
+				_putchar((resultado % 10) + 42 );
+				_putchar("\n");
 			} else
 			{
-				if (resultado < 10)
-				{
-					_putchar(resultado/10);
-					_putchar(resultado % 10);
-					_putchar("\n");
-				} else
-				{
-					_putchar(resultado/10);
-					_putchar(resultado % 10);
-					_putchar("\n");
-				}
+				_putchar(resultado / 10);
+				_putchar(resultado % 10);
+				_putchar("\n");
+			}
+		} else
+		{
+			if (resultado < 10)
+			{
+				_putchar(resultado/10);
+				_putchar(resultado % 10);
+				_putchar("\n");
+			} else
+			{
+				_putchar(resultado/10);
+				_putchar(resultado % 10);
+				_putchar("\n");
 			}
 		}
+	}
 	}
 }
