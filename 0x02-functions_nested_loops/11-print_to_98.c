@@ -1,8 +1,8 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * main - check the code for Holberton School students.
- *
+ * print_to_98 - checked the number 98
+ * @n: values of n
  * Return: Always 0.
  */
 void print_to_98(int n)
@@ -15,13 +15,13 @@ void print_to_98(int n)
 		{
 			n++;
 		}
-		else 
-		{  
+		else
+		{
 			n--;
 		}
-	
+
 	}
-	
-	printf("%d\n",98);
+
+	printf("%d\n", 98);
 
 }
