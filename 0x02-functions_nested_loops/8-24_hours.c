@@ -6,19 +6,20 @@
  * Return: Always 0.
  */
 void jack_bauer(void)
-{
-int m;
-int h;
 
-h = 0;
-while ( h < 24)
+{
+	int m = 0;
+	int h = 0;
+
+	for (h = 0; h <= 24; h++)
 	{
-		m = 0;
-		while ( m < 60)
+		for (m = 0; m < 60; m++)
 		{
-		printf ("%d:%d\n",h,m);
-		m++;
+			_putchar("0" + h);
+			_putchar("0" + m);
+			_putchar("\n");
 		}
-		h++;
+
 	}
+
 }
