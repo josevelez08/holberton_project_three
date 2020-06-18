@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdlib.h>
 /**
- * _abs - absolute value 
+ * _abs - absolute value
  * @o: number absolute
  * Return: Always 0.
  */
