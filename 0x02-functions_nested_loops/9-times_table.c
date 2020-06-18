@@ -23,22 +23,32 @@ void times_table(void)
 			{
 				if (j == 0)
 				{
-					printf("%d, ", resultado);
+					_putchar(resultado/10);
+					_putchar(resultado % 10);
+					_putchar("\n");
 				} else if (resultado < 10)
 				{
-					printf(" %d, ", resultado);
+					_putchar(resultado/10);
+					_putchar(resultado % 10);
+					_putchar("\n");
 				} else
 				{
-					printf("%d, ", resultado);
+					_putchar(resultado/10);
+					_putchar(resultado % 10);
+					_putchar("\n");
 				}
 			} else
 			{
 				if (resultado < 10)
 				{
-					printf(" %d\n", resultado);
+					_putchar(resultado/10);
+					_putchar(resultado % 10);
+					_putchar("\n");
 				} else
 				{
-					printf("%d\n", resultado);
+					_putchar(resultado/10);
+					_putchar(resultado % 10);
+					_putchar("\n");
 				}
 			}
 		}
