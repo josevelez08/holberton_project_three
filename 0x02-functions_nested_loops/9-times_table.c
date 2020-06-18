@@ -21,7 +21,7 @@ void times_table(void)
 			resultado = i * j;
 			if (j != 9)
 			{
-				if (resultado == 0)
+				if (j == 0)
 				{
 					printf("%d, ", resultado);
 				} else if (resultado < 10)
