@@ -1,19 +1,18 @@
 #include "holberton.h"
-#include <stdio.h>
 /**
   * main - check the code for Holberton School students.
   *
-  * Return: void
+  * Return: Always 0
   */ 
 void print_alphabet_x10(void)
 {
-char i = 0;
-int j = 0;
+char i;
+int j;
 for (j = 1; j <= 10; j++)
 {
-for (i = 'a'; i <= 'z'; i++)
-{
-_putchar(i);
-}
+  for (i = 'a'; i <= 'z'; i++)
+  {
+    _putchar(i);
+  }
 _putchar('\n');
 }
