@@ -11,8 +11,8 @@ int add(int i, int a)
 {
 	int result;
   
-	i = 10;
-	a = 15;
+	i = 89;
+	a = 9;
 	result = i + a;
 	printf("%d\n",result);
 	return (0);
