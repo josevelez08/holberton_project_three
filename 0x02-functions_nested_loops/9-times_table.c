@@ -6,8 +6,9 @@
  *
  * Return: Always 0.
  */
-void times_table(void){
-	int  i;
+void times_table(void)
+{
+	int i;
 	
 	int j;
 
@@ -18,12 +19,24 @@ void times_table(void){
 			int resultado;
 			resultado = i * j;
 			if ( j != 9)
-			{
-				printf("%d, "  , resultado);
+			{	
+				if ( resultado < 9 )
+				{
+					printf(" %d, "  , resultado);
+				} else
+				{
+					printf("%d, "  , resultado);
+				}
 			} else
 			{
-				printf("%d$\n"  , resultado);
-			} 
+				if ( resultado < 9 )
+				{
+					printf(" %d, "  , resultado);
+				} else
+				{
+					printf("%d, "  , resultado);
+				}
+			}
 		}
 	}
 }
