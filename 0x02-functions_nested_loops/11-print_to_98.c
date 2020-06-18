@@ -18,8 +18,8 @@ void print_to_98(int n)
 			n--;
 		}
 			printf("%d", n);
-			putchar(44);
-			putchar(32);
+			_putchar(44);
+			_putchar(32);
 		}
 		printf("%d",98);
 }
