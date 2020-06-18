@@ -14,6 +14,6 @@ int add(int i, int a)
 	i = 89;
 	a = 9;
 	result = i + a;
-	printf("%d\n",result);
+	printf(result);
 	return (0);
 }
