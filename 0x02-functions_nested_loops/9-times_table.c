@@ -20,7 +20,7 @@ void times_table(void)
 			resultado = i * j;
 			if ( j != 9)
 			{	
-				if ( resultado < 9 )
+				if ( resultado < 10 )
 				{
 					printf(" %d, "  , resultado);
 				} else
@@ -29,12 +29,12 @@ void times_table(void)
 				}
 			} else
 			{
-				if ( resultado < 9 )
+				if ( resultado < 10 )
 				{
-					printf(" %d, "  , resultado);
+					printf(" %d$\n"  , resultado);
 				} else
 				{
-					printf("%d, "  , resultado);
+					printf("%d$\n"  , resultado);
 				}
 			}
 		}
