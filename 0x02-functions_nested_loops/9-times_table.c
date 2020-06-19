@@ -1,54 +1,43 @@
 #include "holberton.h"
-#include <stdio.h>
 
 /**
- * times_table - check the code for Holberton School students.
+ * times_table - the function.
+ *
  *
  * Return: Always 0.
  */
 void times_table(void)
 {
 	int i;
-
 	int j;
+	int result;
 
 	for (i = 0; i < 10; i++)
-	{
-	for (j = 0; j < 10; j++)
-	{
-		int resultado;
 
-		resultado = i * j;
-		if (j != 9)
+		for (j = 0; j < 10; j++)
 		{
-			if (j == 0)
+			result = i * j;
+			if (j / 10 != 0)
 			{
-				_putchar(resultado);
-				_putchar("\n");
-			} else if (resultado < 10)
-			{
-				_putchar((resultado % 10) + 42 );
-				_putchar("\n");
-			} else
-			{
-				_putchar(resultado / 10);
-				_putchar(resultado % 10);
-				_putchar("\n");
+				if (j != 0)
+				{
+					_putchar (',');
+					_putchar (' ');
+				}
+				_putchar (result / 10 + '0');
+				_putchar (result % 10 + '0');
 			}
-		} else
-		{
-			if (resultado < 10)
+			else
 			{
-				_putchar(resultado/10);
-				_putchar(resultado % 10);
-				_putchar("\n");
-			} else
-			{
-				_putchar(resultado/10);
-				_putchar(resultado % 10);
-				_putchar("\n");
+				if (j != 0)
+				{
+					_putchar (',');
+					_putchar (' ');
+					_putchar (' ');
+				}
+				_putchar (result  + '0');
 			}
 		}
+	_putchar('\n');
 	}
-	}
-}
+
