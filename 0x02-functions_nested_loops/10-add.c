@@ -3,8 +3,8 @@
 
 /**
 	* add - sumar
-	*@i: dato 1
-	*@a dato 2
+	* @i: dato primero;
+	* @a: dato segundo 
 	* Return: Always 0.
 	*/
 
