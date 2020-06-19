@@ -4,7 +4,7 @@
 /**
 	* add - sumar
 	* @i: dato primero;
-	* @a: dato segundo 
+	* @a: dato segundo
 	* Return: Always 0.
 	*/
 
