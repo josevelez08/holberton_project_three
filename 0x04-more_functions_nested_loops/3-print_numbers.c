@@ -1,5 +1,5 @@
 #include "holberton.h"
-
+#include <stdio.h>
 /**
  * main - check the code for Holberton School students.
  *
@@ -13,4 +13,5 @@ void print_numbers(void)
 	{
 	_putchar (c);
 	}
+	_putchar('\n');
 }
