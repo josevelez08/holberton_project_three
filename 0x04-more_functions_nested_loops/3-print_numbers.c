@@ -9,7 +9,7 @@ void print_numbers(void)
 {
  int c;
 
-	for ( c > 96; c < 123; c++ )
+	for ( c > 47; c < 58; c++ )
 	{
 	_putchar (c);
 	}
