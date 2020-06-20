@@ -8,7 +8,7 @@
  */
 void print_numbers(void)
 {
- int c = 48 ;
+ char c = 48 ;
 
 	for ( c >= 48 ; c < 58; c++ )
 	{
