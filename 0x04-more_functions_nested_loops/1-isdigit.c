@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <stdio.h>
 
 /**
  * main - check the code for Holberton School students.
@@ -8,7 +7,7 @@
  */
 int _isdigit(int c)
 {
-	if ( c >= 0 || c <= 9)
+	if ( c >= 48 && c <= 58)
 	{
 		return (1);
 	}
