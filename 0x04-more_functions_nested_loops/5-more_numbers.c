@@ -23,7 +23,7 @@ void more_numbers(void)
 		 {
 			 for ( n = 48; n < 53; n++)
 			 {
-				 	_putchar (n);
+				 	_putchar ('1' + n);
 			 }
 		 }
 		 _putchar (10);
