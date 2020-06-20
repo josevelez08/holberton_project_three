@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 
 /**
  * main - check the code for Holberton School students.
@@ -7,7 +8,7 @@
  */
 void print_numbers(void)
 {
- char c = 0 ;
+ int c;
 
 	for (c >= 48 ; c < 58; c++)
 	{
