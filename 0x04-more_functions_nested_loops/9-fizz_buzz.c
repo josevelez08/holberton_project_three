@@ -7,7 +7,7 @@
  * Return: Always 0.
  */
 
-void fizz(void)
+void main(void)
 {
 	int i;
 
