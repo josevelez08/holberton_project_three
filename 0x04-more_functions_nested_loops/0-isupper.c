@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * _isupper - check the code for Holberton School students.
+ *_isupper - check the code for Holberton School students.
  *
  * @c: revisar si es mayuscula
  */
