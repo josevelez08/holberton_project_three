@@ -10,7 +10,7 @@ void more_numbers(void)
 {
 	int f;
 	int n;
-
+	int mod;
 	for (f = 0; f < 10; f++)
 	{
 		for ( n = 0; n <= 14; n++);
@@ -22,7 +22,8 @@ void more_numbers(void)
 			else
 			{
 				_putchar(49);
-				_putchar (n % 10);
+				mod = n % 10;
+				_putchar (mod + 48);
 			}
 		 _putchar (10);
 	 }
