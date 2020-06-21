@@ -13,18 +13,17 @@ void more_numbers(void)
 
 	for (f = 0; f < 10; f++)
 	{
-	 for ( n = 48; n < 63; n++);
+	 for ( n = 0; n <= 14; n++);
 	 {
-		 if ( n < 58)
+		 if ( n < 10)
 		 {
-			 _putchar (n);
+			 _putchar (n + 48);
 		 }
 		 else
 		 {
-			 for ( n = 48; n < 53; n++)
-			 {
-				 	_putchar ('1' + n);
-			 }
+			_putchar(49);
+			int mod = n % 10;
+		 	_putchar (mod + 48);
 		 }
 		 _putchar (10);
 	 }
