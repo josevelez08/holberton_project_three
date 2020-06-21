@@ -3,7 +3,7 @@
 /**
  * more_numbers - check the code for Holberton School students.
  *
- * Return: Always 0.
+ * 
  */
 
 void more_numbers(void)

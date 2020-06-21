@@ -4,6 +4,7 @@
  *_isupper - check the code for Holberton School students.
  *
  * @c: revisar si es mayuscula
+ * Return: Always 0.
  */
 int _isupper(int c)
 {
