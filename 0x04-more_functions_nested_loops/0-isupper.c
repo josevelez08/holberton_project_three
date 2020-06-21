@@ -3,7 +3,7 @@
 /**
  * _isupper - check the code for Holberton School students.
  *
- * Return: Always 0.
+ * @c: revisar si es mayuscula
  */
 int _isupper(int c)
 {
