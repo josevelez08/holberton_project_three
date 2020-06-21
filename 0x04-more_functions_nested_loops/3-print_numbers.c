@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
+ * print_numbers - check the code for Holberton School students.
  *
  *
  */
