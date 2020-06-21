@@ -2,7 +2,7 @@
 
 /**
  * _isdigit - check the code for Holberton School students.
- *
+ * @c: betty
  * Return: Always 0.
  */
 int _isdigit(int c)
