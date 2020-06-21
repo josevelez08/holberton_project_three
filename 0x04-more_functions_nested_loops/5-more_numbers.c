@@ -22,8 +22,7 @@ void more_numbers(void)
 		 else
 		 {
 			_putchar(49);
-			int mod = n % 10;
-		 	_putchar (mod + 48);
+		 	_putchar (n % 10);
 		 }
 		 _putchar (10);
 	 }
