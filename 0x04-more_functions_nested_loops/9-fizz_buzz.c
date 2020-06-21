@@ -26,7 +26,7 @@ void fizz(void)
 		{
 			printf("Buzz");
 		}
-		if ( mod3 != 0 && mod5 != 0)
+		if (mod3 != 0 && mod5 != 0)
 		{
 			printf("%d", i);
 		}
