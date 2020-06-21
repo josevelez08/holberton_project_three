@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * print_diagonal - check the code for Holberton School students.
+ * print_square - check the code for Holberton School students.
  *
- * @n: something
+ * @size: something
  */
 
 void print_square(int size)
