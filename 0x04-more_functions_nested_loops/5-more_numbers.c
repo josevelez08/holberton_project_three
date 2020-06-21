@@ -5,7 +5,6 @@
  *
  *
  */
-
 void more_numbers(void)
 {
 	int f;
@@ -18,16 +17,12 @@ void more_numbers(void)
 	{
 		for (n = 0; n <= 14; n++)
 		{
-			if (n < 10)
+			mod = n % 10;
+			if (n > 9)
 			{
-				_putchar ((n + 48));
+				_putchar (49);
 			}
-			else
-			{
-				_putchar(49);
-				mod = n % 10;
-				_putchar ((mod + 48));
-			}
+			_putchar ((mod + 48));
 		}
 		_putchar (10);
 	}
