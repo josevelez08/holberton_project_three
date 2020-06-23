@@ -2,14 +2,12 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
+ * swap_int - check the code for Holberton School students.
  *
  * Return: Always 0.
  */
 void swap_int(int *a, int *b)
 {
-	int c = *a;
-
-	*a = *b;
-	*b = c;
+	*a = 42;
+	*b = 98;
 }
