@@ -4,17 +4,17 @@
 /**
  * _strlen - check the code for Holberton School students.
  * @s: Betty
- * Return : 0
+ * Return : value is tamaño
  */
 
 int _strlen(char *s)
 {
-	int i = 0, tamano = 0;
+	int i = 0, tamaño = 0;
 
 	while (i != -1)
 	{
 		if (*(s + i) != '\0')
-			tamano = tamano + 1;
+			tamaño = tamaño + 1;
 		else
 		{
 			i = -1;
@@ -22,5 +22,5 @@ int _strlen(char *s)
 		}
 		i = i + 1;
 	}
-	return (tamano);
+	return (tamaño);
 }
