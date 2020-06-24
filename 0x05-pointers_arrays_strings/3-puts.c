@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
- *
+ * _puts - check the code for Holberton School students.
+ * @j: betty
 * Return: Always 0.
 */
 void _puts(char *str)

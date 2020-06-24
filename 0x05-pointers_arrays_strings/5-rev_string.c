@@ -2,7 +2,7 @@
 #include "holberton.h"
 
 /**
- * rev_string - reverse string
+ * rev_string - chek the code the Holberton students
  * @s: input string reverse
  */
 

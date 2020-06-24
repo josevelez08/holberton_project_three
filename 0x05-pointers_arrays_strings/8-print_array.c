@@ -2,7 +2,7 @@
 #include "stdio.h"
 
 /**
- * print_array - print reverse characters.
+ * print_array - check the code the Holberton students
  * @a: Array
  * @n: Number of array
  * Return: Always 0.
