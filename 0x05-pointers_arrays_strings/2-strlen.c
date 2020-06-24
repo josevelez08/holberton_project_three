@@ -2,8 +2,9 @@
 #include <string.h>
 
 /**
- * main - check the code for Holberton School students.
- *
+ * _strlen - check the code for Holberton School students.
+ * @s: Betty
+ * Return : 0
  */
 
 int _strlen(char *s)
