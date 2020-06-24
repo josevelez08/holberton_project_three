@@ -1,19 +1,28 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * print_rev - prints a string, in reverse
+ * @s: char input to reverse
  */
 
 void print_rev(char *s)
 {
-	int i;
-	int j;
+	int i = 0, tamano = 0;
 
-	i = *s;
-	for ( j = 0; j > i; j-- );
+	while (i != -1)
 	{
-		_putchar(i);
+		if (*(s + i) != '\0')
+			tamano = tamano + 1;
+		else
+		{
+			i = -1;
+			break;
+		}
+		i = i + 1;
 	}
+	for (i = tamano - 1; i >= 0; i--)
+	{
+		_putchar(*(s + i));
+	}
+	_putchar('\n');
 }
