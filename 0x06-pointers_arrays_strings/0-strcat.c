@@ -10,6 +10,6 @@
 char *_strcat(char *dest, char *src)
 {
 	printf ( dest, src);
-	printf ( '%x\n', dest);
+	printf ( "%s\n", dest);
 	return (dest);
 }
