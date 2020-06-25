@@ -9,10 +9,7 @@
 
 char *_strcat(char *dest, char *src)
 {
-	char *c;
-
-	c = &dest;
 	printf ( dest, src);
-
-	return ("%x\n", c);
+	printf ( 'x%\n', dest);
+	return (dest);
 }
