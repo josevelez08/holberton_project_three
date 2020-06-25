@@ -9,5 +9,6 @@
 
 char *_strcat(char *dest, char *src)
 {
-	return (0);
+	printf (dest, '\n');
+	printf (src, '\n');
 }
