@@ -10,7 +10,7 @@
 char *_strcat(char *dest, char *src)
 {
 	char *conectada;
-	conectada = (dest, src);
+	conectada = dest, src;
 	printf (conectada);
 	return (0);
 }
