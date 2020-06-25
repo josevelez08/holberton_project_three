@@ -9,7 +9,7 @@
 
 char *_strcat(char *dest, char *src)
 {
-	printf (dest,"\n");
-	printf (src);
+	char *conectada = NULL;
+	conectada = (dest,src);
 	return (0);
 }
