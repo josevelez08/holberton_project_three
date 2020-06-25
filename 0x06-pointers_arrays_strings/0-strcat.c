@@ -11,5 +11,6 @@ char *_strcat(char *dest, char *src)
 {
 	char *conectada = NULL;
 	conectada = (dest,src);
+	printf (conectada);
 	return (0);
 }
