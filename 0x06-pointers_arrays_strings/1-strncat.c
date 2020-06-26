@@ -2,8 +2,10 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
- *
+ * _strncat - check the code for Holberton School students.
+ * @dest: destino
+ * @src: fuente
+ * @n: integer
  * Return: Always 0.
 */
 
@@ -16,7 +18,7 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		dest[contd] = 'W';
 	}
-	for (conts = 0; src[conts] < n && src[conts] != '\0';) 
+	for (conts = 0; src[conts] < n && src[conts] != '\0';)
 	{
 		dest[contd] = src[conts];
 		contd++;
