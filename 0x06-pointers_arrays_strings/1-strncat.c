@@ -17,13 +17,12 @@ char *_strncat(char *dest, char *src, int n)
 	for (contd = 0; dest[contd] != '\0'; contd++);
 	{
 	}
-	for (conts = 0; src[conts] < n && src[conts] != '\0';)
+	for (conts = 0; src[conts] < n || src[conts] != '\0';)
 	{
 		dest[contd] = src[conts];
 		contd++;
 		conts++;
 	}
-	dest[contd] = 'W';
 	return (dest);
 }
 
