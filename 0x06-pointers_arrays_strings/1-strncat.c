@@ -11,14 +11,12 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	char c;
 	int contd;
 	int conts;
 
-	c = "w";
 	for (contd = 0; dest[contd] != '\0'; contd++);
-	dest[contd] = c;
-	for (conts = 0; src[conts] < n || src[conts] != '\0';)
+	dest [contd] = 'w';
+	for (conts = 0; src[conts] <= n && src[conts] != '\0';)
 	{
 		dest[contd] = src[conts];
 		contd++;
@@ -26,4 +24,3 @@ char *_strncat(char *dest, char *src, int n)
 	}
 	return (dest);
 }
-
