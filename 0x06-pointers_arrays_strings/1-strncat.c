@@ -12,11 +12,11 @@ char *_strncat(char *dest, char *src, int n)
 	int contd;
 	int conts;
 
-	for (contd = 0; dest[contd] != '\0'; contd++); // Conte la direccion
+	for (contd = 0; dest[contd] != '\0'; contd++);
 
-	for (conts = 0; src[conts] < n; conts++) // Conte la fuente 
+	for (conts = 0; src[conts] < n; conts++) 
 	{
 		dest[contd] = src[conts];
-		contd++; // Hello nnn_ _ _ _ _ 
+		contd++;
 	}
 }
