@@ -13,16 +13,16 @@ char *_strcat(char *dest, char *src)
 	int contd;
 	int conts;
 
-	for (contd = 0; dest[contd] != '\0';) // conte el destino = Hello
+	for (contd = 0; dest[contd] != '\0';)
 	{
 		contd++;
-	} // Hello '\0'_ _ _ _ _ _ _ _ _ _ _ 
-		for (conts = 0; src[conts] != '\0';) // conte la fuente = world !
-	{
-		dest[contd] = src[conts]; // Hello W_ _ _ _ _ _
+	}
+		for (conts = 0; src[conts] != '\0';)
+		{
+		dest[contd] = src[conts];
 		contd++;
 		conts++;
-	} // Hello World!_ _ _ _ _ _ _ 
-	dest[contd] = '\0'; // Hello World! '\0' _ _ _ _ _ _ _ 
+		}
+	dest[contd] = '\0'; 
 	return (dest);
 }
