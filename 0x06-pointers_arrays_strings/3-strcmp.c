@@ -23,6 +23,6 @@ int _strcmp(char *s1, char *s2)
     {
       c  = 0; 
     }
-    return (c);
     }
+  return (c);
 }
