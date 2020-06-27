@@ -2,8 +2,10 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
- *
+ * _strcmp - check the code for Holberton School students.
+ * @s1: Hello	
+ * @s2: World
+ * 
  * Return: Always 0.
  */
 
@@ -16,13 +18,13 @@ int _strcmp(char *s1, char *s2)
 	{
 		if ((s1[conts2]) - (s2[conts2]) != 0)
 		{
-				c = (s1[conts2]) - (s2[conts2]);
-				break;
+			c = (s1[conts2]) - (s2[conts2]);
+			break;
 		}
-		else 
+		else
 		{
-			c  = 0; 
+			c  = 0;
 		}
 	}
-return (c);
+	return (c);
 }
