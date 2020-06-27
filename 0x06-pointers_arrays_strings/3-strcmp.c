@@ -3,9 +3,9 @@
 
 /**
  * _strcmp - check the code for Holberton School students.
- * @s1: Hello	
+ * @s1: Hello
  * @s2: World
- * 
+ *
  * Return: Always 0.
  */
 
