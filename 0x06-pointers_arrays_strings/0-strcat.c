@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
- *
- * i = tamaño
+ * _strcat - check the code for Holberton School students.
+ * @dest: destino
+ * @src: fuente
  * Return: Always 0.
  */
 
@@ -13,16 +13,16 @@ char *_strcat(char *dest, char *src)
 	int contd;
 	int conts;
 
-	for (contd = 0; dest[contd] != '\0';)
+	for (contd = 0; dest[contd] != '\0';) // conte el destino = Hello
 	{
 		contd++;
-	}
-	for (conts = 0; src[conts] != '\0';)
+	} // Hello '\0'_ _ _ _ _ _ _ _ _ _ _ 
+		for (conts = 0; src[conts] != '\0';) // conte la fuente = world !
 	{
-		dest[contd] = src[conts];
+		dest[contd] = src[conts]; // Hello W_ _ _ _ _ _
 		contd++;
 		conts++;
-	}
-	dest[contd] = '\0';
+	} // Hello World!_ _ _ _ _ _ _ 
+	dest[contd] = '\0'; // Hello World! '\0' _ _ _ _ _ _ _ 
 	return (dest);
 }
