@@ -1,27 +1,27 @@
 #include "holberton.h"
-#include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * *leet - encodes a string
+ * @a: input chat
+ * Return: char
  */
 
-char *leet(char *s)
+char *leet(char *a)
 {
-	int len1, len2;
-	char *b = "aAeEoOtTlL";
-	char *a = "44330077";
+	int i = 0, j = 0;
+	char texto[] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
+	char numeros[] = {'4', '4', '3', '3', '0', '0', '7', '7', '1', '1'};
 
-	for (len1 = 0; s[len1] != '\0'; len1++)
+	i = 0;
+	while (a[i] != '\0')
 	{
-		for (len2 = 0; len2 < 10;)
+		for (j = 0 ; j < 10 ; j++)
 		{
-			if ( s[len1] == a[len2])
-			{
-				s[len1] = b[len2];
-			}
+			if (a[i] == texto[j])
+				a[i] = numeros[j];
 		}
+		i++;
 	}
-	return (s);
+
+	return (a);
 }
