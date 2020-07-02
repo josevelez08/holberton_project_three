@@ -17,10 +17,10 @@ if (n < 0)
 	else if  (n > 0)
 {
 	mult = n * (factorial(n - 1));
-	return (mult);
 }
 else if (n == 0)
 {
 	mult = 1;
 }
+	return (mult);
 }
