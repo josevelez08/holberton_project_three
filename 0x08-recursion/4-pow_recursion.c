@@ -6,21 +6,21 @@
  */
 
 int _pow_recursion(int x, int y)
-{ 
+{
 	int elev;
-	
-	if ( y < 0 )
+
+	if (y < 0)
 	{
 		return (-1);
 	}
-	else if ( y == 0)
+	else if (y == 0)
 	{
 		return (1);
 	}
-	else 
+	else
 	{
-		elev = ( x * (_pow_recursion (x, y - 1)));
-		
+		elev = (x * (_pow_recursion (x, y - 1)));
+
 	return (elev);
 	}
 }

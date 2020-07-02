@@ -14,9 +14,9 @@ int factorial(int n)
 	{
 		return (-1);
 	}
-	else if  ( n > 0 )
+	else if  (n > 0)
 	{
-		mult = n *(factorial( n - 1));
+		mult = n * (factorial(n - 1));
 		return (mult);
 	}
 	else if (n == 0)
