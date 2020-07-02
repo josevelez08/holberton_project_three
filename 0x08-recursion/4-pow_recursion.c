@@ -3,6 +3,7 @@
  * _pow_recursion -  checker the raised
  * @x: base
  * @y: exponente
+ * Reutrn: result 
  */
 
 int _pow_recursion(int x, int y)
