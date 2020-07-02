@@ -24,5 +24,10 @@ char *_strchr(char *s, char c)
 			s++;
 		}
 	}
+<<<<<<< HEAD
 	return (s);
 }
+=======
+	
+}
+>>>>>>> 2f60f2bb251bc4018feed5c3e1d3a1af2378dd79
