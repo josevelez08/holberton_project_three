@@ -1,28 +1,27 @@
 #include "holberton.h"
-#include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * *_strchr - locates a character in a string
+ * @s: array s
+ * @c: number of search
+ * Return: char
  */
-
 
 char *_strchr(char *s, char c)
 {
-	int i;
-	int *c;
-
-	while (s[i] != '\0')
+	while (*s != '\0')
 	{
-		if ( s[i] != c)
+		if (*s == c)
 		{
-			continue;
+			return (s);
 		}
-		else
-		{
-			s++;
-		}
+		s = s + 1;
 	}
-	
+
+	if (*s == c)
+	{
+		return (s);
+	}
+
+	return ('\0');
 }
