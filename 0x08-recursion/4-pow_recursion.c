@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _pow_recursion - potencia
+ * _pow_recursion -  checker the raised
  * @x: base
  * @y: exponente
  */
