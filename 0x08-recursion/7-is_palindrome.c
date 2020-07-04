@@ -37,6 +37,11 @@ int _strlen_recursion(char *s)
 		}
 		return (find_palindrom(word, i + 1, size));
 	}
+/**
+ * is_palindrome - returns the leght of a string
+ * @s: the string
+ * Return: The length of a string
+ */
 
 	int is_palindrome(char *s)
 	{
