@@ -1,0 +1,1 @@
+This is the folder for the tasks of statics libraries and dynamics libraries
