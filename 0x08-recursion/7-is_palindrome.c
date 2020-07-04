@@ -14,6 +14,14 @@ int _strlen_recursion(char *s)
 		}
 		return (tamano);
 }
+/**
+ * find_palindrom - returns the leght of a string
+ * @word: the string
+ * @size: the string
+ * @i: the string
+ * Return: The length of a string
+ */
+
 
 	int find_palindrom(char *word, int i, int size)
 	{
