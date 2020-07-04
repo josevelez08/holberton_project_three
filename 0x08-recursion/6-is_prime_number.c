@@ -1,8 +1,9 @@
 #include "holberton.h"
 
 /**
-* is_prime_number - numeros primos
+* find_prime_number - numeros primos
 * @n: num checker
+* @i: num checker
 * Return: 0 always
 */
 
@@ -30,7 +31,7 @@ int  find_prime_number(int n, int i)
 		return (1);
 	}
 
-	return ( find_prime_number(n, i + 1));
+	return (find_prime_number(n, i + 1));
 }
 
 /**
