@@ -39,7 +39,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (n >= j)
 	{
-	for (j = 0; j != '\0'; j++)
+	for (j = 0; s2[j] != '\0'; j++)
 	{
 		p[i + j] = s2[j];
 	}
