@@ -36,13 +36,9 @@ for (i = 48; i < 58; i++)
 		if (i > 57 && j == 57)
 		{ j++; }
 		if (i == j)
-		{
-			continue;
-		}
+		{	continue; }
 		if (j > 57 && i > 57)
-		{
-			break;
-		}
+		{break; }
 		putchar(i);
 		putchar(j);
 		putchar(44);
