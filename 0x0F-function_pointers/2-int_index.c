@@ -12,6 +12,11 @@
 		int j = 0;
 		int index;
 
+		if (size <= 0)
+		{
+			return (-1);
+		}
+
 		for (i = 0; i < size; i++)
 		{
 		index = ((cmp)(array[i]));
