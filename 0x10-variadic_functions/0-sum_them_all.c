@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdarg.h>
-/*
+/**
 * sum_them_all - add all numbers
 * @n: repeating number
+* Return: 0 always
 */
 int sum_them_all(const unsigned int n, ...)
 {

@@ -1,5 +1,11 @@
 #include <stdio.h>
 #include <stdarg.h>
+/**
+* print_numbers - add all numbers
+* @separator: repeating number
+* @n: count
+* Return: 0 always
+*/
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
@@ -10,11 +16,11 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	for (i = 0; i < n; i++)
 	{
-			sum = va_arg(valist, int);
-			printf("%d",sum);
-			if ( i < n -1)
+		sum = va_arg(valist, int);
+		printf("%d", sum);
+			if (i < n - 1)
 			{
-				printf("%s",separator);
+				printf("%s", separator);
 			}
 	}
 			printf("\n");
