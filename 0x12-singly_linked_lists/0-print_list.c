@@ -12,14 +12,13 @@ while (h)
 	{
 	if (h->str == NULL)
 	{
-		printf("nil");
-
+		printf("[0] (nil)\n");
+		printf("[%d] ", h->len);
 	}
 	else
 	{
-	printf("%s", h->str);
+	printf("%s\n", h->str);
 	}
-	printf(" [%d]\n", h->len);
 	h = h->next;
 	count++;
 	}
